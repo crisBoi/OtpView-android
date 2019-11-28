@@ -58,8 +58,8 @@ class OTPViewActivity : AppCompatActivity() {
                     }
                 }
 
-                else {
-                    if(!editText.text.isEmpty())
+                else if(!editText.text.isEmpty()){
+
                     when(editText) {
                         otp_et1 -> disablePrevious(otp_et1, otp_et2)
                         otp_et2 -> disablePrevious(otp_et2, otp_et3)
@@ -84,7 +84,7 @@ class OTPViewActivity : AppCompatActivity() {
         if (previousEditText != null) {
             previousEditText.isEnabled = true
             previousEditText.requestFocus()
-            previousEditText.setText("")
+
         }
 
     }
