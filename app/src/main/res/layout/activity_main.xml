@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OTPViewActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:weightSum="6"
+        android:orientation="horizontal"
+        android:layout_marginStart="44dp">
+
+        <EditText
+            android:id="@+id/otp_et1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:backgroundTint="#000000"
+            android:maxLength="1"
+            android:inputType="number"
+            android:nextFocusDown="@id/otp_et2"
+            android:gravity="center"
+            />
+        <EditText
+            android:id="@+id/otp_et2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:backgroundTint="#000000"
+            android:maxLength="1"
+            android:inputType="number"
+            android:nextFocusDown="@id/otp_et3"
+            android:gravity="center"
+            />
+        <EditText
+            android:id="@+id/otp_et3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:backgroundTint="#000000"
+            android:maxLength="1"
+            android:inputType="number"
+            android:nextFocusDown="@id/otp_et4"
+            android:gravity="center"
+            />
+        <EditText
+            android:id="@+id/otp_et4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:backgroundTint="#000000"
+            android:maxLength="1"
+            android:inputType="number"
+            android:nextFocusDown="@id/otp_et5"
+            android:gravity="center"
+            />
+        <EditText
+            android:id="@+id/otp_et5"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:backgroundTint="#000000"
+            android:maxLength="1"
+            android:inputType="number"
+            android:nextFocusDown="@id/otp_et6"
+            android:gravity="center"
+            />
+        <EditText
+            android:id="@+id/otp_et6"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:backgroundTint="#000000"
+            android:maxLength="1"
+            android:inputType="number"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
